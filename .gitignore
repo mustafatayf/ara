@@ -1,0 +1,21 @@
+.git
+
+# All folders that starting with a dot (.)
+.*/
+# Local work folders that start with lc_
+lc_*/
+#^lc_.*/$
+
+# other unexpected files
+*.rar
+*.zip
+*.tar
+*.tar.gz
+# image files
+*.png
+*.jpg
+*.jpeg
+
+# temporary files
+*.tmp
+*.bak
